@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/episode_detail_id_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/episode_detail_id"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/episode_detail_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/episode_detail_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/episode_detail_air_date_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/episode_detail_air_date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/episode_detail_episode_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/episode_detail_episode"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/episode_detail_url_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/episode_detail_url"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/episode_detail_created_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/episode_detail_created"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_characters_in_episode_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/small_padding"
+                tools:listitem="@layout/item_character" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

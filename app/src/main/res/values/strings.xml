@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Aston_Rick_and_Morty</string>
+    <string name="character_name">Name:</string>
+    <string name="character_species">Species:</string>
+    <string name="character_status">Status:</string>
+    <string name="character_gender">Gender:</string>
+    <string name="location_name">name:</string>
+    <string name="location_type">type:</string>
+    <string name="location_dimension">dimension:</string>
+    <string name="episode_name">name:</string>
+    <string name="episode">episode:</string>
+    <string name="air_date">air_date:</string>
+    <string name="character_detail_name">name:</string>
+    <string name="character_detail_status">status:</string>
+    <string name="character_detail_species">species:</string>
+    <string name="character_detail_gender">gender:</string>
+    <string name="character_detail_url">url:</string>
+    <string name="character_detail_created">created:</string>
+    <string name="character_detail_id">ID:</string>
+    <string name="character_detail_origin">origin:</string>
+    <string name="character_detail_location">location</string>
+    <string name="character_detail_type">type:</string>
+    <string name="location_detail_id">ID:</string>
+    <string name="location_detail_name">name:</string>
+    <string name="location_detail_type">type:</string>
+    <string name="location_detail_dimension">dimension:</string>
+    <string name="location_detail_url">url:</string>
+    <string name="location_detail_created">created:</string>
+    <string name="episode_detail_id">ID:</string>
+    <string name="episode_detail_name">name:</string>
+    <string name="episode_detail_air_date">air_date:</string>
+    <string name="episode_detail_episode">episode:</string>
+    <string name="episode_detail_url">url</string>
+    <string name="episode_detail_created">created</string>
+    <string name="episode_url">episode_detail_url</string>
+</resources>

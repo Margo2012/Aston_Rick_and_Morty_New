@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/fragment_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/location_detail_id_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/location_detail_id"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:id="@+id/location_detail_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/location_detail_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:id="@+id/location_detail_type_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/location_detail_type"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:id="@+id/location_detail_dimension_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/location_detail_dimension"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:id="@+id/location_detail_url_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/location_detail_url"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:id="@+id/location_detail_created_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:text="@string/location_detail_created"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_residents_in_location_detail"
+                android:padding="@dimen/small_padding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
